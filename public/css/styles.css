@@ -95,7 +95,7 @@
 
 .dog-name {
     font-weight: 500;
-    font-size: .6em;
+    font-size: .4em;
     padding-left: 0em;
     margin-left: 0em;
 }
@@ -119,8 +119,8 @@
 img {
     min-width: 8em;
     max-width: 8em;
-    min-height: 6em;
-    max-height: 6em;
+    min-height: 5em;
+    max-height: 5em;
     overflow-y: hidden;
     overflow-x: hidden;
     display: inline-block;
@@ -141,7 +141,7 @@ img {
 }
 
 .row {
-    height: 10em;
+    height: 9.666em;
     width: 90%;
     border: 2px solid #aAaAcf;
     overflow-y: hidden;
