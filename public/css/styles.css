@@ -1,7 +1,5 @@
-
-
-.hover{
-     text-decoration: none !important;
+.hover {
+    text-decoration: none !important;
     text-decoration-line: none !important;
 }
 
@@ -61,10 +59,6 @@
     text-decoration-line: none;
     border: none;
     color: #FFF9EA;
-<<<<<<< HEAD
-=======
-
->>>>>>> 4cfc7e9e980a09731a52235ee50429c305309f4c
 }
 
 .homeButton {
@@ -86,9 +80,9 @@
 
 .logout {
     text-align: right;
-
     width 100%;
     margin: 0em;
+    margin-right: 5%;
     margin-top: -.3em;
     margin-bottom: .4em;
     padding: 1em;
@@ -162,6 +156,35 @@ img {
     position: relative;
 }
 
+#row {
+    height: 15.2em;
+    width: 95%;
+    border: 2px solid #aAaAcf;
+    overflow-y: scroll;
+    padding: auto;
+    margin-top: .6em;
+    position: relative;
+}
+.dog-thumb{
+    margin: .3em;
+    margin-left: -.01em;
+    
+}
+
+.showImage {
+    min-width: 9em;
+    max-width: 9em;
+    min-height: 7em;
+    max-height: 7em;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    display: inline-block;
+    position: absolute;
+    border: 2px solid #aAaAcf;
+    object-fit: cover;
+    object-position: center;
+}
+
 .radio {
     font-size: 15px;
 }
@@ -174,16 +197,20 @@ img {
 }
 
 .caption {
-    margin-left: 52%;
-    font-size: 3em;
+    max-width: 8em;
+    font-size: 2.4em;
     font-weight: 400;
+    position: right;
+    float: left;
+    margin-left: 7em;
+    text-align: left;
+    display: inline-block;
 }
 
 h5 {
     font-size: .19em;
     font-weight: 400;
 }
-
 
 .splashDisplay {
     margin-top: 2em;
@@ -221,21 +248,18 @@ a {
 a:hover {
     text-decoration: none !important;
     text-decoration-line: none !important;
-
     text-shadow: 0 0 .09em #FFF9EA !important;
-}
-
 }
 
 
 /*Edit*/
 
 #updating {
-
     padding-top: 10px;
     padding-left: 20px;
     padding-right: 20px;
 }
+
 
 /*.dogModal {
     width: 468px;
@@ -246,10 +270,9 @@ a:hover {
     position: relative;
 }*/
 
-.move{
+.move {
     float: left;
 }
-
 
 .form-horizontal .form-group {
     margin-right: 49%;
@@ -257,11 +280,8 @@ a:hover {
 }
 
 .form-control {
-
     width: 260%;
 }
 
 
-
 /*breaks @ 995*/
-
