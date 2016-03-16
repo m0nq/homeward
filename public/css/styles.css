@@ -1,12 +1,13 @@
-.hover{
-     text-decoration: none !important;
-    text-decoration-line: none !important;
-}
 * {
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
     font-size: 1.23em;
-	border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+
+.hover {
+    text-decoration: none !important;
+    text-decoration-line: none !important;
 }
 
 .navbar {
@@ -19,53 +20,6 @@
     font-weight: 300;
     padding-left: 0em;
     color: #FFF9EA;
-}
-#hero {
-    color: #FFF9EA;
-    font-weight: 300;
-    font-size: 6em;
-    padding: .1em;
-    border: none;
-}
-
-
-#hero:hover {
-    backface-visibility: visible;
-    pointer-events: visibleStroke;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 300;
-    text-shadow: 0 0 .07em #FFF9EA;
-    text-decoration-line: none;
-    border: none;
-    color: #FFF9EA;
-    
-}
-
-.homeButton {
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 300;
-    color: #FFF9EA;
-    text-decoration:inherit;
-    cursor: default;
-}
-.navbar-info {
-    color:  #FFF9EA;
-    text-align: right;
-    width:100%;
-    padding-right: 0em;
-    padding-top: 0em;
-    align-items: baseline;
-}
-.logout {
-    text-align: right;
-    
-    width 100%;
-    margin: 0em;
-    margin-top: -.3em;
-    margin-bottom: .4em;
-    padding: 1em;
-    padding-top: .3em;
-    padding-bottom: .3em;
 }
 
 .user-name {
@@ -81,10 +35,61 @@
     margin-bottom: -2.3em;
 }
 
+#hero {
+    color: #FFF9EA;
+    outline: 2px;
+    outline-color: #aAaAFf;
+    font-weight: 300;
+    font-size: 7em;
+    padding: .1em;
+    border: none;
+}
+
+#hero:hover {
+    backface-visibility: visible;
+    pointer-events: visibleStroke;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    text-shadow: 0 0 .07em #FFF9EA;
+    text-decoration-line: none;
+    border: none;
+    color: #FFF9EA;
+}
+
+.homeButton {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    color: #FFF9EA;
+    text-decoration: inherit;
+    cursor: default;
+}
+
+.navbar-info {
+    color: #FFF9EA;
+    text-align: right;
+    width: 100%;
+    padding-right: 0em;
+    padding-top: 0em;
+    align-items: baseline;
+}
+
+.logout {
+    text-align: right;
+    width 100%;
+    margin: 0em;
+    margin-top: -.3em;
+    margin-bottom: .4em;
+    padding: 1em;
+    padding-top: .3em;
+    padding-bottom: .3em;
+}
+
 .heron {
     color: #FFF9EA;
+    outline-width: 2px;
+    outline-color: #aAaAFf;
     font-weight: 300;
-    font-size: 6em;
+    font-size: 7em;
     padding: .1em;
 }
 
@@ -96,20 +101,25 @@
 }
 
 .col-centered {
-    float: 0;
+    float: none;
+    margin: 0 auto;
 }
 
 .data {
-    max-width: 400px;
+    max-width: 8em;
+    font-weight: 400;
     position: right;
+    float: left;
     margin-left: 385px;
     text-align: left;
     display: inline-block;
 }
 
 img {
-    min-width: 333.333px;
-    max-width: 334px;
+    min-width: 8em;
+    max-width: 8em;
+    min-height: 6em;
+    max-height: 6em;
     overflow-y: hidden;
     overflow-x: hidden;
     display: inline-block;
@@ -117,6 +127,7 @@ img {
     top: center;
     border: 2px solid #aAaAFf;
     margin: .4em;
+    object-fit: cover;
 }
 
 .bold {
@@ -129,11 +140,11 @@ img {
 }
 
 .row {
-    height: 333.33px;
+    height: 10em;
     width: 90%;
     border: 2px solid #aAaAFf;
     overflow-y: hidden;
-    padding: .1em;
+    padding: .4em;
     margin: .7em;
     position: relative;
 }
@@ -148,15 +159,53 @@ img {
     padding-top: .3em;
     padding-bottom: .3em;
 }
-.caption{
+
+.caption {
     margin-left: 52%;
+    font-size: 3em;
+    font-weight: 400;
+}
+
+h5 {
+    font-size: .18em;
+    font-weight: 400;
+}
+
+.splashDisplay{
+    margin-top: 2em;
+    padding-top: .7em;
+    margin-left: 0;
+    text-align: left;
+    font-size: 2em;
+    font-weight: 400;
+    
+}
+.splashBody {
+    padding-top: .3em;
+    margin-top: -.5em;
+    margin-left: 30%;
+    text-align: left;
+    font-size: 1em;
+    font-weight: 400;
+    max-width: 19em;
+}
+
+.splashCaption {
+   margin-top: .5em;
+    margin-left: 30%;
+    text-align: left;
+    font-size: .8em;
+    font-weight: 300;
+    max-width: 24em;
 }
 
 a {
     color: inherit;
     text-decoration-line: none;
 }
- a:hover{
-     text-decoration: none !important;
+
+a:hover {
+    text-decoration: none !important;
     text-decoration-line: none !important;
+    text-shadow: 0 0 .09em #FFF9EA !important;
 }
