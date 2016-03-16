@@ -125,8 +125,8 @@
 img {
     min-width: 8em;
     max-width: 8em;
-    min-height: 5em;
-    max-height: 5em;
+    min-height: 4.5em;
+    max-height: 4.5em;
     overflow-y: hidden;
     overflow-x: hidden;
     display: inline-block;
@@ -147,7 +147,7 @@ img {
 }
 
 .row {
-    height: 9.666em;
+    height: 8.888em;
     width: 90%;
     border: 2px solid #aAaAcf;
     overflow-y: hidden;

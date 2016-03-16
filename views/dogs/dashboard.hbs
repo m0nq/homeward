@@ -20,11 +20,11 @@
             <div class="data" class="index">
                 <a href="/dashboard/{{_id}}" class="attributes">
                     <h4 class="dog-name" id="dog-name">{{name}}</h4> </a>
+                <h5><span class = "bold">status:</span> {{status}}</h5>
                 <h5><span class = "bold">breed:</span> {{breed}}</h5>
                 <h5><span class = "bold">color:</span> {{color}}</h5>
+                <h5><span class = "bold">neighborhood:</span> {{neighborhoods}}</h5>
                 <h5><span class = "bold">location:</span> {{location}}</h5>
-                <h5><span class = "bold">reward:</span> {{reward}}</h5>
-                <h5><span class = "bold">description:</span> {{description}}</h5>
             </div>
 
         </container>
@@ -34,19 +34,26 @@
 
 </div>
 
+
+
 <!-- script for client side rendering of new dogs -->
 <script id="dog-template" type="text/x-handlebars-template">
 
-    <div class="row">
+   <div class="row">
         <container class="index">
 
-            <img src=\{{dog.image}}>
+            <img src={{image}}>
 
 
             <div class="data" class="index">
-                <a href="/dashboard/\{{_id}}" class="attributes"><h4 class="dog-name" id="dog-name">\{{dog.name}}</h4> </a>
-                <h5><span class = "bold">description:</span> \{{dog.description}}</h5>
-                <h5><span class = "bold">lost:</span> \{{dog.lost}}</h5>
+                <a href="/dashboard/{{_id}}" class="attributes">
+                    <h4 class="dog-name" id="dog-name">{{name}}</h4> </a>
+                <h5><span class = "bold">status:</span> {{status}}</h5>
+                <h5><span class = "bold">breed:</span> {{breed}}</h5>
+                <h5><span class = "bold">color:</span> {{color}}</h5>
+                <h5><span class = "bold">neighborhood:</span> {{neighborhoods}}</h5>
+                <h5><span class = "bold">location:</span> {{location}}</h5>
+                <h5><span class = "bold">description:</span> {{description}}</h5>
             </div>
 
         </container>
@@ -70,7 +77,7 @@
 
                     <form id="new-dog-form" class="form" onsubmit="homeward.createDog(event)">
 
-                        <div class="radio">
+                        <!-- <div class="radio">
                             <label>
                                 <input type="radio" id="lost" name="lost" value="true" checked> Lost Dog
                             </label>
@@ -79,13 +86,14 @@
                             <label>
                                 <input type="radio" id="found" name="lost" value="false"> Found Dog
                             </label>
-                        </div>
+                        </div> -->
                         <div class="form-group col-md-4">
                             <input name="name" class="form-control" placeholder="Dog Name" required='true' />
                         </div>
                         <div class="form-group col-md-4">
                             <input name="description" class="form-control" placeholder="Description" required='true' />
                         </div>
+
 
 
 
@@ -122,6 +130,9 @@
 
 
                     </form>
+
+
+
 
                 </div>
             </div>
