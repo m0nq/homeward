@@ -1,35 +1,31 @@
-
-<h1>SHOW PAGE FOR {{user.firstName}}</h1>
-
-
 <div class="row dashboard">
-    <div class="col-sm-6 col-md-9 col-centered" id="dashboard-template">
+    <div class="col-sm-9 col-md-9 col-centered" id="dashboard-template">
 
-            <!-- <div class="userShow.fb-thumb">
+        <!-- <div class="userShow.fb-thumb">
                 <img src={{userShow.fb.image}}>
             </div> -->
-            <!-- <div class="caption userShow.fb-thumb"> -->
-
-                <h5><span class = "attributes">First Name:</span> {{user.firstName}}</h4>
-                <h5><span class = "attributes">Last Name:</span> {{user.lastName}}</h5>
-                <h5><span class = "attributes">Email:</span> {{user.email}}</h5>
-
-            </div>
-
-           
+        <!-- <div class="caption userShow.fb-thumb"> -->
+        <div class="userShow">
+            <h5><span class = "attributes">First Name:</span> {{user.firstName}}</h5>
+            <h5><span class = "attributes">Last Name:</span> {{user.lastName}}</h5>
+            <h5><span class = "attributes">Email:</span> {{user.email}}</h5>
+        </div>
+    </div>
 
 
 
 
 
-<h1>{{dog.lost}}</h1>
 
-<div class="dashboard">
-    <div class="col-sm-6 col-md-9 col-centered" id="dashboard-template">
-       
+
+    <h1>{{dog.lost}}</h1>
+
+    <div class="dashboard">
+        <div class="col-sm-6 col-md-9 col-centered" id="dashboard-template">
+
             <div class="dog-thumb">
                 <img src={{dog.image}}>
-            
+
             </div>
             <div class="caption dog-thumb">
                 <h4 class="dog-name" id="dog-name">{{dog.name}}</h4>
@@ -42,10 +38,10 @@
                 <h5><span class = "attributes">description:</span> {{dog.description}}</h5>
                 <h5><span class = "attributes">lost:</span> {{dog.lost}}</h5>
             </div>
+        </div>
     </div>
-</div>
-    
-<div class="modal fade" id="edit-dog-modal" tabindex="-1" role="dialog">
+
+    <div class="modal fade" id="edit-dog-modal" tabindex="-1" role="dialog">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
