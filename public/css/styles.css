@@ -80,14 +80,14 @@
 
 .logout {
     text-align: right;
-    width 100%;
     margin: 0em;
-    margin-right: 5%;
+    margin-right: 3%;
     margin-top: -.3em;
     margin-bottom: .4em;
     padding: 1em;
     padding-top: .3em;
     padding-bottom: .3em;
+    float: right;
 }
 
 .heron {
@@ -104,54 +104,55 @@
     font-size: .4em;
     padding-left: 0em;
     margin-left: 0em;
+    margin-bottom: -.1em;
 }
 
 .col-centered {
-    float: none;
+    float: left;
     margin: 0 auto;
 }
 
 .data {
-    max-width: 8em;
+    max-width: 6em;
+    max-height: 4.5em;
     font-weight: 400;
-    font-size: 2.2em;
-    position: right;
-    float: left;
-    margin-left: 385px;
+    font-size: 2.1em;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: -.222em;
+    margin-bottom: .1%;
     text-align: left;
     display: inline-block;
 }
 
 img {
-    min-width: 8em;
-    max-width: 8em;
-    min-height: 4.5em;
-    max-height: 4.5em;
+    width: 35%;
+    height: 4.5em;
     overflow-y: hidden;
     overflow-x: hidden;
     display: inline-block;
-    position: absolute;
+    position: absolute: float: left;
     top: center;
     border: 2px solid #aAaAcf;
-    margin: .4em;
+    margin: .2%;
     object-fit: cover;
 }
 
 .bold {
     font-weight: 600;
-    font-size: 1.25em;
+    font-size: 1.15em;
 }
 
 .index {
-    max-height: 333.33px;
+    height: 300px;
 }
 
 .row {
-    height: 8.888em;
-    width: 90%;
+    height: 8em;
+    width: 96%;
     border: 2px solid #aAaAcf;
     overflow-y: hidden;
-    padding: .4em;
+    padding: .5em;
     margin: .7em;
     position: relative;
 }
@@ -165,10 +166,10 @@ img {
     margin-top: .6em;
     position: relative;
 }
-.dog-thumb{
+
+.dog-thumb {
     margin: .3em;
     margin-left: -.01em;
-    
 }
 
 .showImage {
@@ -196,6 +197,20 @@ img {
     padding-bottom: .3em;
 }
 
+.btn-info {
+    font-size: 18px;
+    background-color: rgba(255,254,253,.24);
+    color: #FFF9EA;
+    border-color:#FFF9EA;
+    border-width: 2px;
+}
+.btn-primary {
+    font-size: auto;
+    background-color: rgba(218,222,254,.24);
+    color: #aAaAcf;
+    border-color:#aAaAcf;
+    border-width: 2px;
+}
 .caption {
     max-width: 8em;
     font-size: 2.4em;
