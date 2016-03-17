@@ -111,6 +111,19 @@
     float: left;
     margin: 0 auto;
 }
+.caption {
+    max-width: 6em;
+    font-size: 2.4em;
+    font-weight: 400;
+    width: 7em;
+    text-align: left;
+    display: inline-block;
+    position: absolute;
+    margin-left: 55%;
+    margin-right: 5%;
+    float: left;
+}
+
 
 .data {
     max-width: 6em;
@@ -158,12 +171,15 @@ img {
 }
 
 #row {
-    height: 15.2em;
+    height: 15.7em;
     width: 95%;
+    max-width:110%;
     border: 2px solid #aAaAcf;
     overflow-y: scroll;
-    padding: auto;
+    overflow-x:scroll;
+    padding: .01em;
     margin-top: .6em;
+    margin-bottom: .4em;
     position: relative;
 }
 
@@ -173,10 +189,8 @@ img {
 }
 
 .showImage {
-    min-width: 9em;
-    max-width: 9em;
-    min-height: 7em;
-    max-height: 7em;
+     width: 50%;
+    height: 7.777em;
     overflow-y: hidden;
     overflow-x: hidden;
     display: inline-block;
@@ -211,16 +225,7 @@ img {
     border-color:#aAaAcf;
     border-width: 2px;
 }
-.caption {
-    max-width: 8em;
-    font-size: 2.4em;
-    font-weight: 400;
-    position: right;
-    float: left;
-    margin-left: 7em;
-    text-align: left;
-    display: inline-block;
-}
+
 
 h5 {
     font-size: .19em;
